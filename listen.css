@@ -1,0 +1,99 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+header{
+  background-color: #63A375;
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  padding-left: 20px;
+}
+
+body{
+  background-color: #FAFFD8;
+}
+
+.logo{
+  height: 60px;
+  margin: 16px;
+}
+
+.name{
+  display: flex;
+  align-items: center;
+  color: #FAFFD8;
+  font-family: 'Brandey SemBd', sans-serif;
+}
+
+.menu{
+  position: absolute;
+  left: 70%;
+  top: 38%;
+  border: 10px;
+  color: #846075;
+}
+
+.menu-buttons{
+  background-color: #63A375;
+  height: 30%;
+  border: 0px;
+  color: black;
+  margin-left: 20px;
+  font-family: 'Brandey Med', sans-serif;
+}
+
+.menu-buttons:hover{
+  color: white;
+}
+
+#spotify-graphic{
+  display: flex;
+  flex-direction: row;
+  height: 352px;
+  justify-content: space-around;
+  margin: 60px;
+}
+
+iframe{
+  width: 50%;
+}
+
+graphic{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#bg-blob{
+  height: 100%;
+}
+
+.quotes{
+  width: 520px;
+  border-radius: 10%;
+}
+
+#content{
+  margin: 40px;
+}
+
+#slide-form{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 60px;
+  margin-right: 100px;
+}
+
+#slideshow{
+  align-items: flex-end;
+}
+
+.page-name{
+  font-size: 100px;
+  text-align: center;
+  font-family: 'Brandey SemBd', sans-serif;
+}
